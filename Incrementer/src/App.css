@@ -1,0 +1,45 @@
+/*Contains the content of the webpage*/
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.incrementer--card {
+  height: 200px;
+  width: 250px;
+  border-radius: 2px;
+  background-color: rgb(235, 235, 235);
+/*Places the buttons under the title*/
+  display: flex;
+  flex-direction: column;
+}
+
+/*Styles and places the title text*/
+.incrementer--title{
+  margin:20px
+}
+
+/*Styles and places the buttons and number*/
+.incrementer--buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+/*Styles the buttons*/
+button{
+  border:none;
+  border-radius: 5px;
+  height: 50px;
+  width: 80px;
+}
+
+.plus{
+  background-color: rgb(74, 173, 50);
+}
+.minus{
+  background-color: rgb(179, 41, 41);
+}
